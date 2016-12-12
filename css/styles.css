@@ -1,8 +1,9 @@
 *{
   font-family: 'Open Sans', sans-serif;
 }
-body{
-
+p{
+font-family: 'Handlee', cursive;
+font-size: 20px;
 }
 header{
   background: url(../images/background1.jpg), #000;
@@ -263,12 +264,7 @@ figure.snip1174.hover a {
     color: #36A0FF;
 }
 
-1
-12
-13
-14
-15
-16
+
 .imagenes {
   width: 150px;
   height: auto;
@@ -286,4 +282,17 @@ figure.snip1174.hover a {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
     -o-transform: rotate(-7deg);
+}
+
+.pie-pagina{
+  background: rgb(61, 61, 61);
+  color: rgb(197, 250, 230);
+}
+footer h6{
+  font-family: 'Tangerine', cursive;
+  color: rgb(182, 182, 3);
+  font-size: 30px;
+}
+.footer-2{
+  background-color: rgb(51, 51, 51);
 }
