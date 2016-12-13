@@ -1,21 +1,46 @@
 *{
   font-family: 'Open Sans', sans-serif;
 }
-p{
-font-family: 'Handlee', cursive;
-font-size: 20px;
+
+h2 {
+  font-weight: bold;
 }
+
 header{
-  background: url(../images/background1.jpg), #000;
-  background-size: cover;
-
-  height: : 400px;
-
+  background:rgba(0,0,0,.7);
+  height: 100vh;
+  position: relative;
 }
+
 header .principal{
-  background:rgba(0,0,0,.6);
-  overflow: hidden;
+  background: url(../images/bg1.jpg);
+  background-size: cover;
+  filter: blur(3px);
+  height: 100%;
 }
+
+header #particles-js{
+  height: 100%;
+}
+
+p{
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+.bg-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  box-shadow: 0 0 1em black;
+}
+
 .logo{
   width: 80px;
   height: auto;
@@ -35,9 +60,19 @@ header .principal{
   color: white !important;
 }
 .navbar-brand{
+  color: white;
   font-size: 38px;
   font-weight: 600;
 }
+
+.navbar-brand:visited{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white !important;
+}
+
 .navbar-inner {
     background-color:transparent;
 }
@@ -58,10 +93,7 @@ header .principal{
   margin-top: 26px;
 }
 .slider-principal{
-
   font-weight: 800;
-
-
 }
 .contenedor{
   width: 100%;
