@@ -1,5 +1,5 @@
-*{
-  font-family: 'Open Sans', sans-serif;
+body{
+font-family: 'Lato', sans-serif;
 }
 
 h2 {
@@ -34,7 +34,7 @@ p{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .carousel {
@@ -73,25 +73,97 @@ p{
   color: white !important;
 }
 
+h1{
+font-family: 'Lato', sans-serif;
+font-size: 37px;
+
+}
+h2{
+font-family: 'Lato', sans-serif;
+font-size: 34px;
+color: #73603D;
+}
+h3{
+font-family: 'Lato', sans-serif;
+font-size: 31px;
+}
+h4{
+font-family: 'Lato', sans-serif;
+font-size: 28px;
+}
+h5{
+font-family: 'Lato', sans-serif;
+font-size: 25px;
+}
+h6{
+font-family: 'Lato', sans-serif;
+font-size: 22px;
+}
+p{
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+.nav.navbar-nav.navbar-left li a {
+    color: blue !important;
+}
+.colorTextoUno{
+  color: #73603D;
+}
+.colorTextoDos{
+  color: #BF8A49;
+}
+.colorTextoTres{
+  color: #F2CA80;
+}
+.colorTextoCuatro{
+  color: #5E5A59;
+}
+.colorTextoCinco{
+  color: #0D0D0D;
+}
+.colorBackgroundUno{
+  background-color: #73603D;
+}
+.colorBackgroundDos{
+  background-color: #BF8A49;
+}
+.colorBackgroundTres{
+  background-color: #F2CA80;
+}
+.colorBackgroundCuatro{
+  background-color: #5E5A59;
+}
+.colorBackgroundCinco{
+  background-color: #0D0D0D;
+}
+.colorBackgroundNo{
+  background-color: transparent;
+}
+.colorBorderUno{
+  border: 1px solid #73603D;
+}
+.colorBorderDos{
+  border: 1px solid #BF8A49;
+}
+.colorBorderTres{
+  border: 1px solid #F2CA80;
+}
+.colorBorderCuatro{
+  border: 1px solid #5E5A59;
+}
+.colorBorderCinco{
+  border: 1px solid #0D0D0D;
+}
+
+
 .navbar-inner {
     background-color:transparent;
 }
 .titulos{
   margin-top: -35%;
 }
-.titulo1{
-  color: #f5f5f5;
-  font-size: 3.5em;
-  font-weight: bold;
-}
-.titulo2{
-  color: #f5f5f5;
-  font-size: 2.25em;
-  line-height: 36px;
-  font-weight: bold;
-  margin-bottom: 36px;
-  margin-top: 26px;
-}
+
 .slider-principal{
   font-weight: 800;
 }
@@ -100,18 +172,22 @@ p{
   margin: auto;
   overflow: hidden;
 }
+.container-fluido{
+  margin-left: 12%;
+  margin-right: 12%;
+}
 #sliderr{
   width: 100%;
   height: 200px;
-  background-image: url(../images/banner-herramientas.png);
-  background-size: 100% 100%;
-  animation: sli 20s infinite linear;
+  background-image: url(../images/banner-tecnologias.jpg);
+  background-size: 200% 100%;
+  animation: sli 35s infinite linear;
 
 }
 @keyframes sli {
 
   to{
-    background-position: 3000px;
+    background-position: 3600px;
   }
 }
 

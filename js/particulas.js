@@ -15,7 +15,7 @@ $(document).ready(function(){
             }
           },
           "color": {
-            "value": "#f00"
+            "value": "#F2CA80"
           },
           "shape": {
             "type": "circle",
@@ -43,11 +43,11 @@ $(document).ready(function(){
             }
           },
           "size": {
-            "value": 5,
+            "value": 4,
             "random": true,
             "anim": {
               "enable": false,
-              "speed": 40,
+              "speed": 50,
               "size_min": 0.1,
               "sync": false
             }
@@ -55,13 +55,13 @@ $(document).ready(function(){
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#f00",
-            "opacity": 0.9,
-            "width": 2
+            "color": "#F2CA80",
+            "opacity": 0.7,
+            "width": 1
           },
           "move": {
             "enable": true,
-            "speed": 6,
+            "speed": 4,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -95,13 +95,13 @@ $(document).ready(function(){
             },
             "bubble": {
               "distance": 400,
-              "size": 40,
+              "size": 60,
               "duration": 2,
               "opacity": 8,
               "speed": 3
             },
             "repulse": {
-              "distance": 200
+              "distance": 100
             },
             "push": {
               "particles_nb": 4
