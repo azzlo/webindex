@@ -1,9 +1,5 @@
 body{
-font-family: 'Lato', sans-serif;
-}
-
-h2 {
-  font-weight: bold;
+font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -24,8 +20,7 @@ header #particles-js{
 }
 
 p{
-  font-family: 'Handlee', cursive;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .bg-layer {
@@ -34,7 +29,7 @@ p{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(254, 254, 254, 0.3);
 }
 
 .carousel {
@@ -42,8 +37,10 @@ p{
 }
 
 .logo{
-  width: 80px;
+  width: 70%;
   height: auto;
+  margin-left: 20%;
+  margin-top:-10px;
 }
 .navbar{
   height: 75px;
@@ -57,7 +54,7 @@ p{
     height: 70px;
   }
 .textomenu{
-  color: white !important;
+  color: #000 !important;
 }
 .navbar-brand{
   color: white;
@@ -75,85 +72,82 @@ p{
 
 h1{
 font-family: 'Lato', sans-serif;
-font-size: 37px;
+
+color: #fff;
 
 }
 h2{
 font-family: 'Lato', sans-serif;
-font-size: 34px;
-color: #73603D;
+
+color: #8C8C8C;
 }
 h3{
 font-family: 'Lato', sans-serif;
-font-size: 31px;
+
 }
 h4{
 font-family: 'Lato', sans-serif;
-font-size: 28px;
+
 }
 h5{
 font-family: 'Lato', sans-serif;
-font-size: 25px;
+
 }
 h6{
 font-family: 'Lato', sans-serif;
-font-size: 22px;
+
 }
-p{
-font-family: 'Lato', sans-serif;
-font-size: 20px;
-font-weight: 500;
-}
+
 .nav.navbar-nav.navbar-left li a {
     color: blue !important;
 }
 .colorTextoUno{
-  color: #73603D;
+  color: #8C8C8C;
 }
 .colorTextoDos{
-  color: #BF8A49;
+  color: #4C4C4C;
 }
 .colorTextoTres{
-  color: #F2CA80;
+  color: #000000;
 }
 .colorTextoCuatro{
   color: #5E5A59;
 }
 .colorTextoCinco{
-  color: #0D0D0D;
+  color: #fff;
 }
 .colorBackgroundUno{
-  background-color: #73603D;
+  background-color: #8C8C8C;
 }
 .colorBackgroundDos{
-  background-color: #BF8A49;
+  background-color: #4C4C4C;
 }
 .colorBackgroundTres{
-  background-color: #F2CA80;
+  background-color: #000000;
 }
 .colorBackgroundCuatro{
   background-color: #5E5A59;
 }
 .colorBackgroundCinco{
-  background-color: #0D0D0D;
+  background-color: #fff;
 }
 .colorBackgroundNo{
   background-color: transparent;
 }
 .colorBorderUno{
-  border: 1px solid #73603D;
+  border: 1px solid #8C8C8C;
 }
 .colorBorderDos{
-  border: 1px solid #BF8A49;
+  border: 1px solid #4C4C4C;
 }
 .colorBorderTres{
-  border: 1px solid #F2CA80;
+  border: 1px solid #000000;
 }
 .colorBorderCuatro{
   border: 1px solid #5E5A59;
 }
 .colorBorderCinco{
-  border: 1px solid #0D0D0D;
+  border: 1px solid #fff;
 }
 
 
@@ -399,14 +393,10 @@ figure.snip1174.hover a {
     -o-transform: rotate(-7deg);
 }
 
-.pie-pagina{
-  background: rgb(61, 61, 61);
-  color: rgb(197, 250, 230);
-}
 footer h6{
-  font-family: 'Tangerine', cursive;
-  color: rgb(182, 182, 3);
-  font-size: 30px;
+
+  color: #fff;
+  
 }
 .footer-2{
   background-color: rgb(51, 51, 51);
