@@ -360,20 +360,10 @@ figure.snip1174.hover a {
 }
 
 
-.headerer {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.icono {
-    font-size: 35px;
-    color: #36A0FF;
-}
 
 
 .imagenes {
-  width: 250px;
+  width: 350px;
   height: auto;
     margin: 20px;
     border: 5px solid #eee;
