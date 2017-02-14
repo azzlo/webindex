@@ -43,12 +43,10 @@ p{
   margin-top:-10px;
 }
 .navbar{
-  height: 75px;
+  height: 50px;
   font-size: 20px;
   background:transparent;
   border-color: transparent;
-  margin-top: 10px;
-
 }
 .navbar-header{
     height: 70px;
@@ -396,7 +394,7 @@ figure.snip1174.hover a {
 footer h6{
 
   color: #fff;
-  
+
 }
 .footer-2{
   background-color: rgb(51, 51, 51);
