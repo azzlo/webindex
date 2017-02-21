@@ -407,8 +407,15 @@ figure.snip1174.hover a {
 footer h6{
 
   color: #fff;
+  font-size: 1em;
 
 }
 .footer-2{
-  background-color: rgb(51, 51, 51);
+  background-color:#1e1e1e;
+  padding: 0.5em;
+
+}
+.copy-footer{
+  color: #02a85c;
+
 }
