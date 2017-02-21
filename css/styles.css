@@ -54,6 +54,12 @@ p{
 .textomenu{
   color: #000 !important;
 }
+.textomenu:hover{
+  color:white !important;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-right-radius: 5px;
+}
 .navbar-brand{
   color: white;
   font-size: 38px;
@@ -329,7 +335,7 @@ figure.snip1174 a {
   opacity: 0;
 }
 figure.snip1174 a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 figure.snip1174.blue {
   background-color: #20638f;
