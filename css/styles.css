@@ -36,17 +36,27 @@ p{
   box-shadow: 0 0 1em black;
 }
 
+.contact-button{
+  background-color: #02a85c;
+  color: white;
+  padding: 1em 3em;
+  border-radius: .2em;
+  border-bottom: 3px solid #00d573;
+}
+
 .logo{
-  width: 70%;
+  width: 256px;
   height: auto;
   margin-left: 20%;
   margin-top:-10px;
+  transition: all .1s ease-in-out;
 }
 .navbar{
   height: 50px;
   font-size: 20px;
   background:transparent;
   border-color: transparent;
+  transition: all .2s ease-in-out;
 }
 .navbar-header{
     height: 70px;
@@ -76,14 +86,9 @@ p{
 
 h1{
 font-family: 'Lato', sans-serif;
-
-color: #fff;
-
 }
 h2{
 font-family: 'Lato', sans-serif;
-
-color: #8C8C8C;
 }
 h3{
 font-family: 'Lato', sans-serif;
@@ -102,9 +107,6 @@ font-family: 'Lato', sans-serif;
 
 }
 
-.nav.navbar-nav.navbar-left li a {
-    color: blue !important;
-}
 .colorTextoUno{
   color: #8C8C8C;
 }
@@ -160,6 +162,20 @@ font-family: 'Lato', sans-serif;
 }
 .titulos{
   margin-top: -35%;
+}
+
+.titulo1{
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 5px black;
+}
+
+.titulo2{
+  color: white;
+  font-family: 'Open Sans';
+  text-shadow: 1px 1px 5px black;
+  line-height: 1.2em;
 }
 
 .slider-principal{
@@ -365,8 +381,9 @@ figure.snip1174.hover a {
   opacity: 1;
 }
 
-
-
+.nav.navbar-nav.navbar-left li a {
+  color: blue !important;
+}
 
 .imagenes {
   width: 350px;

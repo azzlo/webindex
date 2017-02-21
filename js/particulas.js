@@ -15,7 +15,7 @@ $(document).ready(function(){
             }
           },
           "color": {
-            "value": "#4c4c4c"
+            "value": "#ffffff"
           },
           "shape": {
             "type": "circle",
@@ -61,7 +61,7 @@ $(document).ready(function(){
           },
           "move": {
             "enable": true,
-            "speed": 4,
+            "speed": 2,
             "direction": "none",
             "random": false,
             "straight": false,

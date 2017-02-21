@@ -16,23 +16,22 @@ $(document).ready(function(){
       changeNavStyle('top');
       is_top = true;
     }
-
   });
 
   function changeNavStyle(position, bottom){
     if (position == 'top' && !is_top){
       $('.navbar').css('background', 'none');
       $('.navbar').css('box-shadow', 'none');
-      $('img.logo').css("width", "300px");
+      $('img.logo').css("width", "256px");
     }
     if (position == 'bottom' && is_top){
       $('.navbar').css('background', '#FFFFFF');
-      $('.navbar').css('box-shadow', '0 1px 5px black');
+      $('.navbar').css('box-shadow', '0 1px 6px grey');
       $('img.logo').css('width', '120px');
     }
     if (bottom){
       $('.navbar').css('background', '#FFFFFF');
-      $('.navbar').css('box-shadow', '0 1px 5px black');
+      $('.navbar').css('box-shadow', '0 1px 6px grey');
       $('img.logo').css('width', '120px');
     }
   }
