@@ -45,6 +45,12 @@ section{
   padding: 5em 0 ;
 }
 
+#axolotl{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 #webService .bg-list{
   background: url(../images/www.jpg);
   background-size: cover;
@@ -524,15 +530,26 @@ figure.snip1174.hover a {
     -o-transform: rotate(-7deg);
 }
 
+footer{
+  background: rgb(42, 42, 42);
+  padding-top: 2em;
+  position: relative;
+}
+
 footer h6{
   color: #fff;
   font-size: 1em;
 }
 
+footer h4{
+  color: #fff;
+}
+
 .footer-2{
+  font-size: .9em;
+  color: white;
   background-color:#1e1e1e;
   padding: 0.5em;
-
 }
 .copy-footer{
   color: #02a85c;
