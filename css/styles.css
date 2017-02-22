@@ -2,6 +2,10 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Suez One', serif;
+}
+
 header{
   background:rgba(0,0,0,.7);
   height: 100vh;
@@ -23,6 +27,81 @@ p{
   font-size: 18px;
 }
 
+section{
+  padding: 2em 0;
+}
+
+#appService, #webService, #supportService{
+  display: flex;
+}
+
+#appService .bg-list{
+  background: url(../images/apps.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 5em 0 ;
+}
+
+#webService .bg-list{
+  background: url(../images/www.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 5em 0;
+  position: relative;
+}
+
+#webService .bg-list::before,
+#supportService .bg-list::before{
+  border-top: 125px solid transparent;
+  border-bottom: 125px solid transparent;
+  border-left: 50px solid white;
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+#appService .bg-list::before{
+  border-top: 125px solid transparent;
+  border-bottom: 125px solid transparent;
+  border-right: 50px solid white;
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+#supportService .bg-list{
+  background: url(../images/support.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 5em 0 ;
+}
+
+.service .bg-list ul{
+  background: rgba(15, 15, 15, 0.6);
+  color: white;
+  padding: .5em 3em;
+  border-radius: .3em;
+  text-align: left;
+  margin: 0;
+  font-size: 1.2em;
+}
+
 .bg-layer {
   position: absolute;
   top: 0;
@@ -42,63 +121,6 @@ p{
   padding: 1em 3em;
   border-radius: .2em;
   border-bottom: 3px solid #00d573;
-}
-
-.logo{
-  width: 256px;
-  height: auto;
-  margin-left: 20%;
-  margin-top:-10px;
-  transition: all .1s ease-in-out;
-}
-.navbar{
-  height: 50px;
-  font-size: 20px;
-  background:transparent;
-  border-color: transparent;
-  transition: all .2s ease-in-out;
-}
-.navbar-header{
-    height: 70px;
-  }
-.textomenu{
-  color: #000 !important;
-}
-.navbar-brand{
-  color: white;
-  font-size: 38px;
-  font-weight: 600;
-}
-
-.navbar-brand:visited{
-  color: white;
-}
-
-.navbar-brand:hover{
-  color: white !important;
-}
-
-h1{
-font-family: 'Lato', sans-serif;
-}
-h2{
-font-family: 'Lato', sans-serif;
-}
-h3{
-font-family: 'Lato', sans-serif;
-
-}
-h4{
-font-family: 'Lato', sans-serif;
-
-}
-h5{
-font-family: 'Lato', sans-serif;
-
-}
-h6{
-font-family: 'Lato', sans-serif;
-
 }
 
 .colorTextoUno{
@@ -150,17 +172,52 @@ font-family: 'Lato', sans-serif;
   border: 1px solid #fff;
 }
 
+.logo{
+  width: 256px;
+  height: auto;
+  margin-left: 20%;
+  margin-top:-10px;
+  transition: all .1s ease-in-out;
+}
+.navbar{
+  height: 50px;
+  font-size: 20px;
+  background:transparent;
+  border-color: transparent;
+  transition: all .2s ease-in-out;
+}
+.navbar-header{
+    height: 70px;
+  }
+.navbar-brand{
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.navbar-brand:visited{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white !important;
+}
+
+.textomenu{
+  color: #000 !important;
+}
+
+
 
 .navbar-inner {
     background-color:transparent;
 }
 .titulos{
-  margin-top: -35%;
+  margin-top: -47%;
 }
 
 .titulo1{
   color: white;
-  font-weight: bold;
   font-style: italic;
   text-shadow: 1px 1px 5px black;
 }
@@ -186,14 +243,13 @@ font-family: 'Lato', sans-serif;
 }
 #sliderr{
   width: 100%;
-  height: 200px;
+  height: 150px;
   background-image: url(../images/banner-tecnologias.jpg);
-  background-size: 200% 100%;
-  animation: sli 35s infinite linear;
+  background-size: 150% 100%;
+  animation: sli 40s infinite linear;
 
 }
 @keyframes sli {
-
   to{
     background-position: 3600px;
   }
@@ -281,6 +337,26 @@ font-family: 'Lato', sans-serif;
     -webkit-border-radius:0 !important;
 }
 
+
+.nosotros-container .row{
+  display: flex;
+}
+
+.nosotros-container .image-bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/logo2.jpg);
+}
+
+.nosotros-container .image-bg h2{
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+}
+
+
 .services{
     margin: 20px auto;
     }
@@ -296,6 +372,11 @@ figure.snip1174 {
   width: 100%;
   border-radius: 0px;
 }
+
+.services-section{
+  margin: 4em 0;
+}
+
 figure.snip1174 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -379,6 +460,19 @@ figure.snip1174.hover a {
   color: blue !important;
 }
 
+.service{
+  margin: 1em 0;
+}
+
+.service .description{
+  display: flex;
+  align-items: center;
+}
+
+.service .description h3{
+    margin-top: 0;
+}
+
 .imagenes {
   width: 350px;
   height: auto;
@@ -399,10 +493,9 @@ figure.snip1174.hover a {
 }
 
 footer h6{
-
   color: #fff;
-
 }
+
 .footer-2{
   background-color: rgb(51, 51, 51);
 }
