@@ -1,3 +1,5 @@
+var axolotlClickCount = 0
+
 $(document).ready(function(){
   var is_top
   if ($(window).scrollTop() > $(window).height()) {
@@ -37,4 +39,33 @@ $(document).ready(function(){
   }
   //object.addEventListener("scroll", myScript);
   //<element onscroll="myScript">
+  $('#axolotl').on("click", axolotlInteraction);
 });
+
+function axolotlInteraction(){
+  axolotlClickCount += 1;
+  switch (axolotlClickCount) {
+    case 1:
+      $("#axolotl").css("transform", "translate(0%, 0% )")
+      $("#axolotl img").css("transform", "scaleX(-1)")
+      $("#axolotl img").css("filter", "FlipH")
+      $("#axolotl").css("right", "calc(100% - 143px)")
+      break;
+    case 2:
+      $("#axolotl img").css("height", "200px")
+      $("#axolotl img").css("transform", "scaleX(1)")
+      $("#axolotl img").css("filter", "FlipH")
+      $("#axolotl").css("bottom", "60px")
+      $("#axolotl").css("right", "calc(100% - 110px)")
+      break;
+    case 3:
+      $("#axolotl img").css("height", "150px")
+      $("#axolotl img").css("transform", "scaleX(-1)")
+      $("#axolotl img").css("filter", "FlipH")
+      $("#axolotl").css("bottom", "50px")
+      $("#axolotl").css("right", "calc(100% - 80px)")
+      break;
+    default:
+      break;
+  }
+}
