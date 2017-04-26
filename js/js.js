@@ -7,6 +7,7 @@ $(document).ready(function(){
     changeNavStyle('bottom', true);
   }else {
     is_top = true;
+    changeNavStyle('top', false);
   }
   $(window).scroll(function () {
     var scroll_top = $(window).scrollTop();
@@ -25,16 +26,25 @@ $(document).ready(function(){
       $('.navbar').css('background', 'none');
       $('.navbar').css('box-shadow', 'none');
       $('img.logo').css("width", "256px");
+      $('img.logo').css('filter', 'invert(100%)');
+    }
+    if (position == 'top' && is_top){
+      $('.navbar').css('background', 'none');
+      $('.navbar').css('box-shadow', 'none');
+      $('img.logo').css("width", "256px");
+      $('img.logo').css('filter', 'invert(100%)');
     }
     if (position == 'bottom' && is_top){
       $('.navbar').css('background', '#FFFFFF');
       $('.navbar').css('box-shadow', '0 1px 6px grey');
       $('img.logo').css('width', '120px');
+      $('img.logo').css('filter', 'invert(0%)');
     }
     if (bottom){
       $('.navbar').css('background', '#FFFFFF');
       $('.navbar').css('box-shadow', '0 1px 6px grey');
       $('img.logo').css('width', '120px');
+      $('img.logo').css('filter', 'invert(0%)');
     }
   }
   //object.addEventListener("scroll", myScript);
