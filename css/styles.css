@@ -47,8 +47,9 @@ section{
 
 #axolotl{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  /*right: 0;*/
+  width: 50px; height: 100px;  left: 5;
+  bottom: 1;
   transition: all .15s ease;
 }
 
@@ -89,8 +90,9 @@ section{
   border-right: 1px solid black;
   border-bottom-right-radius: 5px;
 }
-.navbar-brand{
+#axolotl .navbar-brand{
   color: white;
+  width: 50px; height: 60px;  left: 5;
   font-size: 38px;
   font-weight: 600;
 }
@@ -239,6 +241,7 @@ section{
 }
 
 .navbar-brand:hover{
+
   color: white !important;
 }
 
@@ -252,7 +255,7 @@ section{
     background-color:transparent;
 }
 .titulos{
-  margin-top: -47%;
+  /*margin-top: -47%;*/
 }
 
 .titulo1{
