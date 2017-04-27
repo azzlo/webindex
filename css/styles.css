@@ -85,8 +85,8 @@ section{
 }
 .textomenu:hover{
   color:white !important;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  /*border-bottom: 1px solid black;*/
+  /*border-right: 1px solid black;*/
   border-bottom-right-radius: 5px;
 }
 #axolotl .navbar-brand{
@@ -240,8 +240,7 @@ section{
 }
 
 .navbar-brand:hover{
-
-  color: white !important;
+  color: gray !important;
 }
 
 .textomenu{
