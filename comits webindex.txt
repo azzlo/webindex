@@ -1,0 +1,231 @@
+commit 7dc50d64bc2157c0f981f3d52f83e6a1e4761bf2
+Merge: 29abafe 80187d8
+Author: Chino <romerogallegos.david@outlook.com>
+Date:   Thu Apr 27 18:15:59 2017 -0500
+
+    prueba de automerging
+
+commit 29abafe2cd977416791268a71af228d8f0d4fcb7
+Author: Chino <romerogallegos.david@outlook.com>
+Date:   Thu Apr 27 16:50:51 2017 -0500
+
+    eliminado de borde en el menu
+
+commit 80187d898600914556ba0206fe544b31fda7d07a
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Thu Apr 27 16:25:14 2017 -0500
+
+    Se cambia la seccion de portafolio, agrego imagen a footer y se corrije el slider de logos techies
+
+commit cfed21f320064f8c6328de647c0a1044a7344b21
+Merge: af3bb7f 1452dde
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Thu Apr 27 12:59:40 2017 -0500
+
+    Merge branch 'master' of github.com:azzlo/webindex
+
+commit af3bb7f0ee612b78bd9e9dc421b02d3df66da69c
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Thu Apr 27 12:59:32 2017 -0500
+
+    Cambio en el orden del menu
+
+commit 1452ddee21539f7245a6fa9371e3dccde170a126
+Merge: 04dbacb 290f4a8
+Author: Chino <romerogallegos.david@outlook.com>
+Date:   Wed Apr 26 17:24:48 2017 -0500
+
+    Merge de commit's y borrado de slider
+
+commit 04dbacb77a3c0bcca7b81b92cd26355d0f361681
+Author: Chino <romerogallegos.david@outlook.com>
+Date:   Wed Apr 26 17:17:36 2017 -0500
+
+    Logo con axolote y eliminado de slider
+
+commit 290f4a8d89520aca629cca01ad7ba8141d805d7f
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Wed Apr 26 16:12:59 2017 -0500
+
+    Cambio de fondo , optimizacion de algunas imagenes y se corrige el centrado vertical en el texto principal
+
+commit d7a124516568e0c1bf234a02004384f7cfa9d3a7
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Wed Feb 22 00:03:59 2017 -0600
+
+    First part of mini interaction with the axolotl
+
+commit 344caabc1262b0f612580b45f0f9a1bee00c057b
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 21 23:01:06 2017 -0600
+
+    Style changes for footer and apply more SEO
+
+commit 2f56291dd02577d10e26ab27fb1093c765552111
+Merge: 286cff6 8d98d09
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 21 21:06:10 2017 -0600
+
+    Reviewed and merged last conflict changes
+
+commit 286cff6511207cf60df237048a5661a37cda1231
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 21 21:01:09 2017 -0600
+
+    structure change and Services more style was added
+
+commit 8d98d09b5e579c1a8747d9cdeda33c8b60ef0571
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 21 16:57:19 2017 -0600
+
+    cambios en el footer
+
+commit 731d7cba21fa15866968a6857c47d6849664feb2
+Merge: 4c4f061 c49f2b2
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 21 15:39:20 2017 -0600
+
+    Merge branch 'master' of github.com:azzlo/webindex
+
+commit 4c4f061949e8b91e294c3724c244553addf67e02
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 21 15:37:13 2017 -0600
+
+    fusion de cambios entre header y menu
+
+commit 6f5cd2f52549707dfdfcfd4643b1ffbff782359b
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 21 14:01:25 2017 -0600
+
+    imagenes
+
+commit c49f2b2f16f64f7d4a16ee411a362cfde907ead9
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 21 13:57:15 2017 -0600
+
+    fix logo size and add principal color
+
+commit e3fea288f013e8eb3cb5c54b03ed62a8f812d513
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 21 12:33:00 2017 -0600
+
+    favicon y textarea en el contacto
+
+commit f0ad0e2ffa1e28c18d577ecf2c0f509db9e91755
+Merge: 58326c9 3049985
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 14 14:43:19 2017 -0600
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 58326c9a4ecad14da9a20fabe762afa11b16fccb
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Tue Feb 14 14:42:53 2017 -0600
+
+    Navigation changes styles when scroll down
+
+commit 3049985f1b6fa46b3f87479c4d0c84697211e51b
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Feb 13 15:31:19 2017 -0600
+
+    fontend diseño y color de los componentes
+
+commit ed90de61a23302e13fdf83a7bcd5e537c14bc9d0
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Feb 13 14:55:20 2017 -0600
+
+    fontend diseño y color de los componentes
+
+commit 234175e6ed40c10c07624779cb735c00345130f6
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Feb 7 16:09:55 2017 -0600
+
+    frontend interfaces de servicios
+
+commit e5a4ca48bb0081648ba5bc68dbdfdd9873ffe2c8
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Mon Dec 12 23:23:59 2016 -0600
+
+    Primer avance de propuesta para frontend
+
+commit 1e3aabd032a8b336150c0956a7e8aaedf7014b43
+Merge: d40d770 050871a
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Mon Dec 12 19:25:42 2016 -0600
+
+    Merge remote-tracking branch 'origin' into styles-prop
+
+commit 050871a23d71d5c3c308e46b94a736e8957ac2c7
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 17:59:31 2016 -0600
+
+    ventana modal
+
+commit c55b8fa3094ac47415b9792154373aa94d03055d
+Merge: 2c2dd9a 848bbb9
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 17:55:34 2016 -0600
+
+    ventana modal  en el boton de contactanos
+
+commit 2c2dd9a8f944055cc19d92f39c6d67f29ad62f64
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 17:50:55 2016 -0600
+
+    ventana modal  en el boton de contactanos
+
+commit 848bbb9e8151c6fa9460ad701fd2549b8b9f8921
+Merge: c6e78a4 0302740
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Mon Dec 12 17:15:15 2016 -0600
+
+    Merge remote-tracking branch 'origin/master'
+    Se fusionan cambios de titulos con origin
+
+commit c6e78a4012267104649fdc54f50b13ddd24ba4b7
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Mon Dec 12 17:15:08 2016 -0600
+
+    Cambio de textos principales
+
+commit 03027402f2eaf248f2ea7b8eb8cdea5994cf3453
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 17:09:29 2016 -0600
+
+    cambios en diseño
+
+commit d40d7703cc1245a18687181bb06c432be62bea45
+Author: Oscar Tellez <oscartzgz@gmail.com>
+Date:   Mon Dec 12 17:02:35 2016 -0600
+
+    Estilos en titulo y mensaje
+
+commit b36f890211cb0d60c09632dcacadfb263c4c114a
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 16:07:32 2016 -0600
+
+    agregue  las redes sociales en el footer  y archivo font-awesome
+
+commit fdc8e0ae6e8e714d9f0c9624a3713e2b15b1e423
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 15:03:44 2016 -0600
+
+    agregue maqueta para el footer y para acerca de
+
+commit 24bd02e54c34aa96e0cf126560a4fd90518f7987
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Mon Dec 12 12:10:48 2016 -0600
+
+    agregue servicios al maquetado
+
+commit fb02482f3fe6850a83efcc6b5a90dee5402f39c6
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Dec 6 17:58:13 2016 -0600
+
+    nueva pagina web propia
+
+commit 2284924acd1e4793b18b1dfa4243b765cd6fc933
+Author: Pedro Cruz <cruzrodriguezpedroj@gmail.com>
+Date:   Tue Nov 8 11:21:25 2016 -0600
+
+    pagina web
