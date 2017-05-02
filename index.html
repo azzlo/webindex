@@ -15,10 +15,12 @@
   </head>
   <body>
 
-    <header id="principalSection">
+    <header>
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
+
             <img id="axolotl" src="images/azzlo-axolotl-300.png" alt="">
+
           <!-- icono y linkes en movil -->
           <div class="navbar-header">
 
@@ -28,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="#principalSection" class="navbar-brand">
+            <a href="#" class="navbar-brand">
               <img src="images/logo.png" class="logo">
             </a>
           </div>
@@ -36,9 +38,9 @@
           <!-- link's cuando el tamaño es para desktop -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#servicesSection" class="textomenu">Servicios</a></li>
-              <li><a href="#workSection" class="textomenu">Portafolio</a></li>
-              <li><a href="#weSection" class="textomenu">Nosotros</a></li>
+              <li><a href="#nosotros" class="textomenu">Nosotros</a></li>
+              <li><a href="#servicios" class="textomenu">Servicios</a></li>
+              <li><a href="#portafolio" class="textomenu">Portafolio</a></li>
               <li><a href="#contacto"class="textomenu">Contacto</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -97,9 +99,14 @@
 
 
 
-    <section id="servicesSection" class="services-section">
+    <section class="services-section">
       <div class="container">
-        <h2 class="text-center">Nuestros servicios</h2>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text-center">Nuestros servicios</h2>
+          </div>
+        </div>
+        <br>
         <div class="row service">
           <div id="webService">
             <div class="col-xs-12 col-md-6 description">
@@ -156,44 +163,144 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+        <br>
 
-    <section class="portafolio" id="workSection">
+
+
+      </div>
+
+    </section>
+    <br><br>
+
+    <section class="portafolio" id="portafolio">
+      <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <h2 class="text-center">
               Nuestro Trabajo
             </h2>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center item">
-            <span class="count-number">5</span>
-            <p>Desarrollo de Software</p>
-            <button class="btn btn-sm btn-success">Ver</button>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center item">
-            <span class="count-number">8</span>
-            <p>Paginas Web construidas</p>
-            <button class="btn btn-sm btn-success">Ver</button>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center item">
-            <span class="count-number">3</span>
-            <p>Solicitudes atendidas en Soporte Tecnico</p>
-            <button class="btn btn-sm btn-success">Ver</button>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center item">
-            <span class="count-number">1</span>
-            <p>Instalaciones de CCTV</p>
-            <button class="btn btn-sm btn-success">Ver</button>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center item">
-            <span class="count-number">1</span>
-            <p>Applicaciones desarrolladas</p>
-            <button class="btn btn-sm btn-success">Ver</button>
+            <br>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg " role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <div class="hidden-xs">Todo</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                    <div class="hidden-xs">Web</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <div class="hidden-xs">Android</div>
+                </button>
+            </div>
+        </div>
+
+            <div class="well">
+          <div class="tab-content">
+            <div class="tab-pane fade in active " id="tab1">
+
+              <div class="row">
+                <div class="services">
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="images/portafolio/doczzor.png" alt="" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion web para visualizar documento en cualquier formato y convertirlos a PDF.
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample33.jpg" alt="sq-sample33" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion que hara mas facil tu vida
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample33.jpg" alt="sq-sample33" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion que hara mas facil tu vida
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade in colorBackgroundCinco" id="tab2">
+              <h3>This is tab 2</h3>
+              <div class="row">
+                <div class="services">
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample33.jpg" alt="sq-sample33" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion que hara mas facil tu vida
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade in" id="tab3">
+              <h3>ojala</h3>
+              <div class="row">
+                <div class="services">
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample33.jpg" alt="sq-sample33" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion que hara mas facil tu vida
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="snip1174 navy col-md-4">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample33.jpg" alt="sq-sample33" />
+                      <figcaption>
+                        <h2>DOCZZOR</h2>
+                        <p>
+                        Aplicacion que hara mas facil tu vida
+                        </p>
+                        <a href="#">Ver</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-    </section>
 
+        </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
     <section class="nosotros-container">
       <div class="container">
         <h2 class="text-center">Nosotros</h2>
@@ -212,10 +319,15 @@
     </section>
 
     <section class="banner-herramientas">
-      <h3 class="text-center">Trabajamos con las ultimas tecnologias</h3>
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="sliderr">
+      <div class="container">
+        <h3 class="text-center">Trabajamos con las ultimas tecnologias</h3>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="contenedor">
+              <div id="sliderr">
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -262,77 +374,80 @@
       <div class="col-md-6">
         <form class="colorTextoUno">
           <div class="form-group row">
-          <div class="col-sm-12">
-            <input type="text" class="form-control " id="" placeholder="Nombre">
+            <label for="" class="col-sm-2 col-form-label ">Nombre</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control colorBorderTres" id="" placeholder="Nombre">
           </div>
         </div>
           <div class="form-group row">
-          <div class="col-sm-12">
-            <input type="email" class="form-control " id="" placeholder="Email">
+            <label for="" class="col-sm-2 col-form-label ">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control colorBorderTres" id="" placeholder="Email">
           </div>
         </div>
         <div class="form-group">
-          <textarea class="form-control " rows="5" id="comment" placeholder="Escribe tu mensaje aquí"></textarea>
-        </div>
-        <div class="text-center">
-          <button type="button" class="btn btn-lg contact-button ">enviar</button>
-        </div>
-      </form>
-    </div>
-  </div>
+  <label for="comment">Mensaje:</label>
+  <textarea class="form-control colorBorderTres" rows="5" id="comment"></textarea>
 </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-lg contact-button ">enviar</button>
+      </div>
+        </form>
+      </div>
 
+    </div>
+</div>
 </section>
 
 <br>
 <br>
 <footer>
   <div class="pie-pagina">
-    <div id="footer1">
-
-      <div  class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h4 class="text-center">Siguenos en las redes sociales</h4>
-            <br>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center">Siguenos en nuestras redes sociales</h4>
           <br>
-          <div class="row">
-            <div class="col-md-3 col-xs-6">
-              <a href="#" target="_blank" class="btn btn-block btn-social btn-twitter">
-                <span class="fa fa-twitter"></span> siguenos en twitter
-              </a>
-            </div>
-            <div class="col-md-3 col-xs-6">
-              <a href="https://facebook.com/azzlopro" target="_blank" class="btn btn-block btn-social btn-facebook">
-                <span class="fa fa-facebook"></span> siguenos en facebook
-              </a>
-            </div>
-            <div class="col-md-3 col-xs-6">
-              <a href="https://github.com/azzlo" target="_blank" class="btn btn-block btn-social btn-github">
-                <span class="fa fa-github"></span> siguenos en github
-              </a>
-            </div>
-            <div class="col-md-3 col-xs-6">
-              <a href="" target="_blank" class="btn btn-block btn-social btn-google">
-                <span class="fa fa-google"></span> siguenos en google
-              </a>
-            </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-3 col-xs-6">
+            <a class="btn btn-block btn-social btn-twitter">
+              <span class="fa fa-twitter"></span> siguenos en twitter
+            </a>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <a class="btn btn-block btn-social btn-facebook">
+              <span class="fa fa-facebook"></span> siguenos en facebook
+            </a>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <a class="btn btn-block btn-social btn-github">
+              <span class="fa fa-github"></span> siguenos en github
+            </a>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <a class="btn btn-block btn-social btn-google">
+              <span class="fa fa-google"></span> siguenos en google
+            </a>
           </div>
         </div>
+        <br>
+        <br>
       </div>
     </div>
     <div class="footer-2">
       <div class="container">
         <div class="row ">
           <div class="col-md-12 text-center">
-            © Copyright 2016-2017 <strong class="copy-footer">azzlo!</strong>. All rights reserved
+            © Copyright 2016 <strong class="copy-footer">AZZLO!</strong>. All rights reserved
           </div>
         </div>
       </div>
     </div>
 
 </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
