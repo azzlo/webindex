@@ -1,9 +1,17 @@
 body{
 font-family: 'Open Sans', sans-serif;
+overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Suez One', serif;
+}
+
+h1{
+  font-size: 3.5em;
+}
+h2{
+  font-size: 2.5em;
 }
 
 header{
@@ -27,7 +35,7 @@ p{
 }
 
 section{
-  padding: 2em 0;
+  padding: 3em 0;
 }
 
 #appService, #webService, #supportService{
@@ -52,6 +60,32 @@ section{
   transition: all .15s ease;
 }
 
+#contactContainer{
+  background: url(../images/contact_bg.jpg);
+  background-size: cover;
+  color: white;
+  padding-bottom: 4em;
+  padding-top: 2em;
+  margin: 0;
+}
+
+#contactSection{
+  display: flex;
+}
+
+#footer1{
+  background-image: url(../images/footer.png);
+  padding-bottom: 3em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+
+#mapContainer{
+  display: inline-flex;
+  padding: 0;
+}
+
 #webService .bg-list{
   background: url(../images/www.jpg);
   background-size: cover;
@@ -61,6 +95,40 @@ section{
   justify-content: center;
   padding: 5em 0;
   position: relative;
+}
+
+#weSection{
+  padding: 6em 0 10em 0;
+}
+
+#workSection{
+  background: url(../images/nuestro_trabajo.jpg);
+  background-size: cover;
+  color: white;
+}
+
+  #workSection  h2{
+    color: white !important;
+    text-shadow: 2px 2px 1px #151515;
+    margin-bottom: 3em;
+  }
+
+  #workSection .count-number{
+    font-size: 3.2em;
+    text-shadow: 1px 1px 3px black;
+  }
+
+  #workSection p{
+    font-size: 1.6em;
+    text-shadow: 1px 1px 2px #151515;
+  }
+
+  #workSection .item{
+    margin-bottom: 5em;
+  }
+
+.btn-facebook, .btn-github, .btn-twitter, .btn-google{
+  margin-bottom: 2em;
 }
 
 .logo{
@@ -85,16 +153,20 @@ section{
 }
 .textomenu:hover{
   color:white !important;
-
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
   border-bottom-right-radius: 5px;
+  text-shadow: 0 0 8px black;
 }
 #axolotl .navbar-brand{
   color: white;
   width: 50px; height: 60px;  left: 5;
   font-size: 38px;
   font-weight: 600;
+}
+
+#contactSection{
+  padding: 0;
 }
 
 #webService .bg-list::before,
@@ -162,6 +234,11 @@ section{
   padding: 1em 3em;
   border-radius: .2em;
   border-bottom: 3px solid #00d573;
+}
+.contact-button:hover{
+  font-weight: bold;
+  color: white;
+  background: #65cb00;
 }
 
 .colorTextoUno{
@@ -242,8 +319,7 @@ section{
 
 .navbar-brand:hover{
 
-  color: gray !important;
-
+  color: white !important;
 }
 
 .textomenu{
@@ -295,10 +371,10 @@ section{
   margin-right: 12%;
 }
 #sliderr{
-  width: 100%;
+  width: auto;
   height: 150px;
   background-image: url(../images/banner-tecnologias.jpg);
-  background-size: 150% 100%;
+  background-size: auto 100%;
   animation: sli 40s infinite linear;
 
 }
