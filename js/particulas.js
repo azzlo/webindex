@@ -15,13 +15,13 @@ $(document).ready(function(){
             }
           },
           "color": {
-            "value": "#ffffff"
+            "value": "#EEDDFF"
           },
           "shape": {
             "type": "circle",
             "stroke": {
               "width": 0,
-              "color": "#000000"
+              "color": "#222"
             },
             "polygon": {
               "nb_sides": 5
@@ -33,7 +33,7 @@ $(document).ready(function(){
             }
           },
           "opacity": {
-            "value": 0.5,
+            "value": 0.81,
             "random": false,
             "anim": {
               "enable": false,
@@ -55,8 +55,8 @@ $(document).ready(function(){
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#4c4c4c",
-            "opacity": 0.7,
+            "color": "#8D6D8D",
+            "opacity": 0.9,
             "width": 1
           },
           "move": {
